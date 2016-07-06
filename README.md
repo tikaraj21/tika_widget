@@ -19,7 +19,7 @@ Usage
 Upload all necessary components and prepare widget
 
 <?php
-use common\components\Tika;
+use yii\tika_widget\Tika;
 ?>
 <?= Tika::widget(['message' => 'Good Morning']) ?>
 
